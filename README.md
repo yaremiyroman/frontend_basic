@@ -1,11 +1,7 @@
-# ################################################### #
-# pull homework repo
-# ################################################### #
+# PULL REPO
 % git clone git@github.com:yaremiyroman/frontend_basic.git
 
-# ################################################### #
-# create newbranch for homework
-# ################################################### #
+# CREATE NEW BRANCH
 # go to repo folder
 % co ~/frontend_basic
 # fetch all
@@ -19,9 +15,7 @@
 # #[hw_id]-[first_name]-[last_name]
 % git checkout -b #7-roman-yaremiy
 
-# ################################################### #
-# push branch to code review
-# ################################################### #
+# PUSH BRANCH TO CODE REVIEW
 # add all files to stage
 % git add .
 # do commiting
@@ -29,6 +23,5 @@
 # push it to code review
 % git push origin #7-roman-yaremiy
 
-# ################################################### #
-# to complete homework please submit it in LMS and do 
-# comment with branch name  
+To complete homework please submit it in LMS and do
+comment with branch name.

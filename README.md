@@ -21,6 +21,7 @@
 % git pull origin master 
 ```
 ###### create new branch 
+follow next naming convention:
 **#[homework_id]-[first_name]-[last_name]**
 ```
 % git checkout -b #7-roman-yaremiy
@@ -40,4 +41,4 @@
 % git push origin #7-roman-yaremiy
 ```
 
-## To complete homework please submit it in LMS and do comment with branch name.
+**To complete homework please submit it in LMS and do comment with branch name.**

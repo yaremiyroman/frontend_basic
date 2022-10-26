@@ -2,8 +2,13 @@
   box-sizing: border-box;
 }
 
+h1,
+p {
+  margin: 0;
+}
+
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .clearfix {
@@ -15,11 +20,11 @@ body {
 }
 
 .wrapper:nth-child(2) {
-  background-color: yellow;
+  background-color: #EEEFF1;
 }
 
 .wrapper:nth-child(3) {
-  background-color: salmon;
+  background-color: #34547A;
 }
 
 .content {
@@ -58,3 +63,77 @@ body {
   margin: 25px auto 0;
 }
 
+.contact h1 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 79px;
+  color: #000;
+  margin-bottom: 35px;
+}
+
+.contact p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #727272;
+  width: 508px;
+  margin-bottom: 45px;
+}
+
+.contact button {
+  width: 225px;
+  height: 65px;
+  background: #34547A;
+  border: none;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.contact button:hover {
+  background: #34547A;
+  cursor: pointer;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-between;
+  padding: 45px 25px;
+}
+
+.project {}
+
+.project img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-right: 10px;
+}
+
+.project span {
+  display: block;
+  float: right;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
+  color: #fff;
+}
+
+.project .label {
+  clear: right;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+
+.project .quantity {
+  position: relative;
+  left: -34px;
+}
